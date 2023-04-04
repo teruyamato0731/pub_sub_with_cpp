@@ -2,4 +2,5 @@
 build
 install
 log
+.devcontainer/.env
 !.vscode/c_cpp_properties.json
