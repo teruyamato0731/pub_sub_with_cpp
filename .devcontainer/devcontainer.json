@@ -1,11 +1,10 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-	"initializeCommand": "echo COMPOSE_PROJECT_NAME=${localWorkspaceFolderBasename} > .devcontainer/.env",
-	"name": "${localWorkspaceFolderBasename}",
+	"name": "pub_sub_with_cpp",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "ros2",
-	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"workspaceFolder": "/workspaces/pub_sub_with_cpp",
 	"customizations": {
 		"vscode": {
 			"extensions": [

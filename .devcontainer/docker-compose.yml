@@ -8,9 +8,9 @@ services:
       - QT_X11_NO_MITSHM=1
     volumes:
       # Working
-      - ../:/workspaces/${COMPOSE_PROJECT_NAME:?error empty COMPOSE_PROJECT_NAME}:cached
+      - ../:/workspaces/pub_sub_with_cpp:cached
       # GUI
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
     tty: true
     command: sleep infinity
-    working_dir: /workspaces/${COMPOSE_PROJECT_NAME:?error empty COMPOSE_PROJECT_NAME}
+    working_dir: /workspaces/pub_sub_with_cpp
