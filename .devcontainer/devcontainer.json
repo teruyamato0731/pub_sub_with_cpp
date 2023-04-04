@@ -5,7 +5,14 @@
 	"name": "${localWorkspaceFolderBasename}",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "ros2",
-	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools"
+			]
+		}
+	}
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
