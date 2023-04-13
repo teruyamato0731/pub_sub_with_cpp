@@ -10,7 +10,6 @@ ROS2 humble の pub/sub を C++ で実行してみる。
 
 # How to use
 1. Docker, vscode, devcontainer拡張機能をインストールする。
-1. GitHub上部の緑の「Use this template」を押し、自身のGitHubアカウントで新規リポジトリを作成。
 1. X11のアクセスをローカルに対して許可する。
     ```bash
     xhost +local:
